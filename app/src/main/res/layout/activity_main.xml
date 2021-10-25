@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/prime"
+        android:padding="20dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:backgroundTint="@color/fondo"
+                android:textColor="@color/blanco"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="originals"
+                android:backgroundTint="@color/fondo"
+                android:textColor="@color/letras"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="series"
+                android:backgroundTint="@color/fondo"
+                android:textColor="@color/letras"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="peliculas"
+                android:backgroundTint="@color/fondo"
+                android:textColor="@color/letras"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="infantil"
+                android:backgroundTint="@color/fondo"
+                android:textColor="@color/letras"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/pueblo"
+        android:scaleType="fitXY"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:text="Series Amazon Originals y exclusivas"
+        android:padding="15dp"
+        android:textSize="20dp">
+
+    </TextView>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/peli1"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/peli2"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/foto3"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/foto4"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/foto5"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/foto6"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:text="Sigue viendo tus series y peliculas"
+        android:padding="15dp"
+        android:textSize="20dp">
+
+    </TextView>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/peli1"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/serie2"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/serie3"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/serie4"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/serie5"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/serie6"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="10dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hogar"
+            android:padding="10dp"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/buscar"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/lista"
+            android:padding="10dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@mipmap/descargar"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@mipmap/ajustes"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
+
